@@ -4,4 +4,6 @@
 ". is the current directory";
 
 //👉⭐ run a docker container
-"docker run [any-container-name]"
+"docker run -dp 5000:5000 [image-name]"
+// or one with container name 
+"docker run -dp 5000:5000 --name [container-name] [image-name]"
