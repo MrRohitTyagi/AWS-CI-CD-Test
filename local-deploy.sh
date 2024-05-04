@@ -1,1 +1,1 @@
-ssh -i cicd.pem ubuntu@ec2-13-236-182-238.ap-southeast-2.compute.amazonaws.com "sudo bash ~/deploy.sh"
+ssh -t -i cicd.pem ubuntu@ec2-13-236-182-238.ap-southeast-2.compute.amazonaws.com "sudo bash ~/deploy.sh"
