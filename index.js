@@ -3,7 +3,7 @@ const express = require("express");
 const app = express();
 
 app.get("/", (req, res) => {
-  res.send("Hello to my World!! FIRST automated deployment");
+  res.send("Hello to my World!! SECOND automated deployment");
 });
 app.get("/yeah-boi", (req, res) => {
   res.send("I am finally connected to AWS");
